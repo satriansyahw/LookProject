@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFHelper", "EFHelper\EFHelper.csproj", "{DFE86D3F-2815-4A96-B1D9-F95FAB3A3B8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LookDB", "LookDB\LookDB.csproj", "{F2A16F5A-71C6-4CC0-8775-0B130514B030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE86D3F-2815-4A96-B1D9-F95FAB3A3B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE86D3F-2815-4A96-B1D9-F95FAB3A3B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE86D3F-2815-4A96-B1D9-F95FAB3A3B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE86D3F-2815-4A96-B1D9-F95FAB3A3B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A16F5A-71C6-4CC0-8775-0B130514B030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A16F5A-71C6-4CC0-8775-0B130514B030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A16F5A-71C6-4CC0-8775-0B130514B030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A16F5A-71C6-4CC0-8775-0B130514B030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A76678B-7D3F-4124-80B7-68569B0B4FD4}
+	EndGlobalSection
+EndGlobal
