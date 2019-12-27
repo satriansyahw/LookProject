@@ -107,6 +107,17 @@ namespace EFHelper.Helper
                     // expParam = Expression.Call(myleft, method, _ColumnNameProperty);
                     expParam = Expression.Call(_ColumnNameProperty, method, myleft);
                 }
+                else if (_Coloperator == "<>")
+                {
+                    if (_Isnullable)
+                    {
+                        expParam = Expression.NotEqual(Expression.Convert(_ColumnNameProperty, myT), Expression.Convert(_ColumnValue, myT));
+                    }
+                    else
+                    {
+                        expParam = Expression.NotEqual(_ColumnNameProperty, _ColumnValue);
+                    }
+                }
             }
 
             return expParam;

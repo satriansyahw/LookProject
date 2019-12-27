@@ -1,0 +1,14 @@
+D:\PROJECTS\LookProject\LookDAL\bin\Debug\netcoreapp2.1\LookDAL.deps.json
+D:\PROJECTS\LookProject\LookDAL\bin\Debug\netcoreapp2.1\LookDAL.dll
+D:\PROJECTS\LookProject\LookDAL\obj\Debug\netcoreapp2.1\LookDAL.csprojAssemblyReference.cache
+D:\PROJECTS\LookProject\LookDAL\obj\Debug\netcoreapp2.1\LookDAL.csproj.CoreCompileInputs.cache
+D:\PROJECTS\LookProject\LookDAL\obj\Debug\netcoreapp2.1\LookDAL.AssemblyInfoInputs.cache
+D:\PROJECTS\LookProject\LookDAL\obj\Debug\netcoreapp2.1\LookDAL.AssemblyInfo.cs
+D:\PROJECTS\LookProject\LookDAL\bin\Debug\netcoreapp2.1\LookDAL.pdb
+D:\PROJECTS\LookProject\LookDAL\obj\Debug\netcoreapp2.1\LookDAL.dll
+D:\PROJECTS\LookProject\LookDAL\obj\Debug\netcoreapp2.1\LookDAL.pdb
+D:\PROJECTS\LookProject\LookDAL\bin\Debug\netcoreapp2.1\EFHelper.dll
+D:\PROJECTS\LookProject\LookDAL\bin\Debug\netcoreapp2.1\LookDB.dll
+D:\PROJECTS\LookProject\LookDAL\bin\Debug\netcoreapp2.1\EFHelper.pdb
+D:\PROJECTS\LookProject\LookDAL\bin\Debug\netcoreapp2.1\LookDB.pdb
+D:\PROJECTS\LookProject\LookDAL\obj\Debug\netcoreapp2.1\LookDAL.csproj.CopyComplete

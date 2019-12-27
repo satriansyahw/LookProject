@@ -53,11 +53,11 @@ namespace LookDB
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            this.setTableDefaultAttributes(modelBuilder);
-            this.setTableDefaultValues(modelBuilder);
-            this.setTableIndexAttributes(modelBuilder);
+            this.SetTableDefaultAttributes(modelBuilder);
+            this.SetTableDefaultValues(modelBuilder);
+            this.SetTableIndexAttributes(modelBuilder);
         }
-        private void setTableIndexAttributes(ModelBuilder modelBuilder)
+        private void SetTableIndexAttributes(ModelBuilder modelBuilder)
         {
             foreach (var entity in modelBuilder.Model.GetEntityTypes())
             {
@@ -74,7 +74,7 @@ namespace LookDB
                 }
             }
         }
-        private void setTableDefaultAttributes(ModelBuilder modelBuilder)
+        private void SetTableDefaultAttributes(ModelBuilder modelBuilder)
         {
             foreach (var entity in modelBuilder.Model.GetEntityTypes())
             {
@@ -90,7 +90,7 @@ namespace LookDB
                 }
             }
         }
-        private void setTableDefaultValues(ModelBuilder modelBuilder)
+        private void SetTableDefaultValues(ModelBuilder modelBuilder)
         {
             foreach (var entity in modelBuilder.Model.GetEntityTypes())
             {
@@ -113,7 +113,7 @@ namespace LookDB
 
 /*How to test
  * 1.cd D:\PROJECTS\EFDBCore\LookDB
- * 2. dotnet ef migrations add InitialCreate
- * 3. dotnet ef database update
- * 4.dotnet ef migrations remove
+ * 2. dotnet ef migrations add InitialCreate //perubahan
+ * 3. dotnet ef database update // update dbnya
+ * 4.dotnet ef migrations remove // remove initial
  */

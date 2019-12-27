@@ -14,9 +14,9 @@ D:\PROJECTS\LookProject\LookDB\bin\Debug\netcoreapp2.1\LookDB.runtimeconfig.json
 D:\PROJECTS\LookProject\LookDB\bin\Debug\netcoreapp2.1\LookDB.runtimeconfig.dev.json
 D:\PROJECTS\LookProject\LookDB\bin\Debug\netcoreapp2.1\LookDB.dll
 D:\PROJECTS\LookProject\LookDB\bin\Debug\netcoreapp2.1\LookDB.pdb
-D:\PROJECTS\LookProject\LookDB\obj\Debug\netcoreapp2.1\LookDB.csprojAssemblyReference.cache
 D:\PROJECTS\LookProject\LookDB\obj\Debug\netcoreapp2.1\LookDB.csproj.CoreCompileInputs.cache
 D:\PROJECTS\LookProject\LookDB\obj\Debug\netcoreapp2.1\LookDB.AssemblyInfoInputs.cache
 D:\PROJECTS\LookProject\LookDB\obj\Debug\netcoreapp2.1\LookDB.AssemblyInfo.cs
 D:\PROJECTS\LookProject\LookDB\obj\Debug\netcoreapp2.1\LookDB.dll
 D:\PROJECTS\LookProject\LookDB\obj\Debug\netcoreapp2.1\LookDB.pdb
+D:\PROJECTS\LookProject\LookDB\obj\Debug\netcoreapp2.1\LookDB.csprojAssemblyReference.cache
