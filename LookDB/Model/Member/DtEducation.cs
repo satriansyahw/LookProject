@@ -46,5 +46,17 @@ namespace LookDB.Model.Member
         [Column(Order = 14), Required]
         public bool ActiveBool { get; set; }
     }
-  
+    public class VW_DtEducation
+    {
+        public int Id { get; set; }
+        public int MemberID { get; set; }
+        public string Institution { get; set; }
+        public string InstitutionLocation { get; set; }
+        public string Major { get; set; }
+        public string IPK { get; set; }
+        public string StudyStart { get; set; }
+        public string StudyEnd { get; set; }
+        public bool OnStudy { get; set; }
+        public string FileSupport { get; set; }
+    }
 }

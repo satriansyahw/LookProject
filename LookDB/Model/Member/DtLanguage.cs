@@ -34,5 +34,12 @@ namespace LookDB.Model.Member
         [Column(Order = 8), Required]
         public bool ActiveBool { get; set; }
     }
-  
+    public class VW_DtLanguage
+    {
+        public int Id { get; set; }
+        public int MemberID { get; set; }
+        public string LangName { get; set; }
+        public Int16 LangLevel { get; set; }
+
+    }
 }

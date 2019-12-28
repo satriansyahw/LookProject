@@ -44,5 +44,17 @@ namespace LookDB.Model.Member
         [Column(Order = 13), Required]
         public bool ActiveBool { get; set; }
     }
-  
+
+    public class VW_DtOrgExperience
+    {
+        public int Id { get; set; }
+        public int MemberID { get; set; }
+        public string OrgName { get; set; }
+        public string Position { get; set; }
+        public string Description { get; set; }
+        public string OrgStart { get; set; }
+        public string OrgEnd { get; set; }
+        public bool OnOrg { get; set; }
+        public string FileSupport { get; set; }
+    }
 }

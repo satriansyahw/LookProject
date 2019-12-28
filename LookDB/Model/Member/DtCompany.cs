@@ -63,5 +63,39 @@ namespace LookDB.Model.Member
         [Column(Order = 24), Required]
         public bool ActiveBool { get; set; }
     }
-  
+    public class VW_DtCompany
+    {
+        public int Id { get; set; }
+        public string CompanyNoReg { get; set; }
+        public string CompName { get; set; }
+        public string CompField { get; set; }
+        public string ShortProfile { get; set; }
+        public string CompanyAddr { get; set; }
+        public string CompCity { get; set; }
+        public string CompProv { get; set; }
+        public string NPWP { get; set; }
+        public string ContactName1 { get; set; }
+        public string ContactHP1 { get; set; }
+        public bool ContactEmail1 { get; set; }
+        public string ContactName2 { get; set; }
+        public string ContactHP2 { get; set; }
+        public string ContactEmail2 { get; set; }
+        public string CompPortal { get; set; }
+        public string MemberType { get; set; }
+        public string SubscribeStart { get; set; }
+        public string SubscribeEnd { get; set; }
+        public bool EffectiveBool { get; set; }
+    }
+    public class VW_Short_DtCompany
+    {
+        public int Id { get; set; }
+        public string CompanyNoReg { get; set; }
+        public string CompName { get; set; }
+        public string CompField { get; set; }
+        public string ShortProfile { get; set; }
+        public string CompanyAddr { get; set; }
+        public string CompCity { get; set; }
+        public string CompProv { get; set; }
+
+    }
 }

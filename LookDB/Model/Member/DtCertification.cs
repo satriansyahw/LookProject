@@ -39,5 +39,16 @@ namespace LookDB.Model.Member
         [Column(Order = 11), Required]
         public bool ActiveBool { get; set; }
     }
-  
+
+    public class VW_DtCertification
+    {
+        public int Id { get; set; }
+        public int MemberID { get; set; }
+        public string CertName { get; set; }
+        public string Description { get; set; }
+        public string CertStart { get; set; }
+        public string CertEnd { get; set; }
+        public string FileSupport { get; set; }
+    }
+
 }

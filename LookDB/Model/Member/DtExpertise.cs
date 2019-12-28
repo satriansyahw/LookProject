@@ -38,5 +38,13 @@ namespace LookDB.Model.Member
         [Column(Order = 10), Required]
         public bool ActiveBool { get; set; }
     }
-  
+    public class VW_DtExpertise
+    {
+        public int Id { get; set; }
+        public int MemberID { get; set; }
+        public string ExpertName { get; set; }
+        public string Description { get; set; }
+        public Int16 ExpertLevel { get; set; }
+        public string FileSupport { get; set; }
+    }
 }

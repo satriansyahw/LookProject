@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <Folder Include="Mem\IFace\" />
-    <Folder Include="Mem\DAL\" />
   </ItemGroup>
 
   <ItemGroup>

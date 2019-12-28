@@ -50,5 +50,20 @@ namespace LookDB.Model.Member
         [Column(Order = 16), Required]
         public bool ActiveBool { get; set; }
     }
-  
+    public class VW_DtWorkingExperience
+    {
+        public int Id { get; set; }
+        public int MemberID { get; set; }
+        public string CompName { get; set; }
+        public string CompField { get; set; }
+        public string Dept { get; set; }
+        public string Position { get; set; }
+        public string Specialization { get; set; }
+        public string Description { get; set; }
+        public string WorkStart { get; set; }
+        public string WorkEnd { get; set; }
+        public bool OnWork { get; set; }
+        public string FileSupport { get; set; }
+
+    }
 }

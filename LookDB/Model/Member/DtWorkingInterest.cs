@@ -43,5 +43,20 @@ namespace LookDB.Model.Member
         [Column(Order = 11), Required]
         public bool ActiveBool { get; set; }
     }
-  
+
+    public class VW_DtWorkingInterest
+    {
+        public int Id { get; set; }
+        public int MemberID { get; set; }
+        public string Posisi { get; set; }
+        public string Dept { get; set; }
+        public string Description { get; set; }
+        public string Location { get; set; }
+        public int Salary { get; set; }
+        public string InsertBy { get; set; }
+        public DateTime InsertDate { get; set; }
+        public string UpdateBy { get; set; }
+        public DateTime UpdateDate { get; set; }
+        public bool ActiveBool { get; set; }
+    }
 }
