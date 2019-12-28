@@ -10,6 +10,15 @@ namespace LookDB
     {
         public DbSet<FakeTable> FakeTable { get; set; }
         public DbSet<DtMember> DtMember { get; set; }
+        public DbSet<DtCertification> DtCertification { get; set; }
+        public DbSet<DtCompany> DtCompany { get; set; }
+        public DbSet<DtEducation> DtEducation { get; set; }
+        public DbSet<DtExpertise> DtExpertise { get; set; }
+        public DbSet<DtLanguage> DtLanguage { get; set; }
+        public DbSet<DtOrgExperience> DtOrgExperience { get; set; }
+        public DbSet<DtWorkingExperience> DtWorkingExperience { get; set; }
+        public DbSet<DtWorkingInterest> DtWorkingInterest { get; set; }
+
         public LookDBContext()
         {
         }

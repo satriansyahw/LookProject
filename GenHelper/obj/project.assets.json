@@ -3764,11 +3764,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROJECTS\\starter\\GenHelper\\GenHelper.csproj",
+      "projectUniqueName": "D:\\PROJECTS\\LookProject\\GenHelper\\GenHelper.csproj",
       "projectName": "GenHelper",
-      "projectPath": "D:\\PROJECTS\\starter\\GenHelper\\GenHelper.csproj",
+      "projectPath": "D:\\PROJECTS\\LookProject\\GenHelper\\GenHelper.csproj",
       "packagesPath": "C:\\Users\\peb2080223\\.nuget\\packages\\",
-      "outputPath": "D:\\PROJECTS\\starter\\GenHelper\\obj\\",
+      "outputPath": "D:\\PROJECTS\\LookProject\\GenHelper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

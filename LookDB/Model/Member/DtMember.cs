@@ -56,4 +56,13 @@ namespace LookDB.Model.Member
         public bool ActiveBool { get; set; }
     }
   
+        public string BackName { get; set; }
+        public string FullName { get; set; }
+        public string HP { get; set; }
+        public string Email { get; set; }
+        public string DateBirth { get; set; }
+        public string PlaceBirth { get; set; }
+        public string Sex { get; set; }
+        public string Photo { get; set; }
+    }
 }

@@ -9,10 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Mem\IFace\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\EFHelper\EFHelper.csproj" />
     <ProjectReference Include="..\LookDB\LookDB.csproj" />
   </ItemGroup>
