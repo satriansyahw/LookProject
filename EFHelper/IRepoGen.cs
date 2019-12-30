@@ -1,4 +1,5 @@
 ﻿using EFHelper.Helper;
+using GenHelper;
 using System;
 using System.Collections.Generic;
 using System.Linq;

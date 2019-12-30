@@ -1,5 +1,6 @@
 ﻿
 using EFHelper;
+using GenHelper;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

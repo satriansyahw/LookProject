@@ -38,16 +38,14 @@ namespace TesterClass
             return kembalian;
         }
 
-        public virtual async Task<APIReturn> ListDataAsync<TSource, TResult>(List<GenHelper.SearchField> SearchFieldList, string sortColumn = "", bool isascending = false, int toptake = 100)
+        public virtual async Task<APIReturn> ListDataAsync<TSource, TResult>(List<SearchField> SearchFieldList, string sortColumn = "", bool isascending = false, int toptake = 100)
             where TSource : class
             where TResult : class
         {
             kembalian = new APIReturn();
             repo = new DALRepoBasic();
             help = new Helper();
-            List<EFHelper.SearchField> searchFields = new List<EFHelper.SearchField>();
-            searchFields =help.CopyPropertiesTo<GenHelper.SearchField, EFHelper.SearchField>(SearchFieldList);
-            var hasil = await repo.ListDataAsync<TSource, TResult>(searchFields, sortColumn, isascending, toptake);
+            var hasil = await repo.ListDataAsync<TSource, TResult>(SearchFieldList, sortColumn, isascending, toptake);
             kembalian.Message = MessageInfo.APISuccess;
             kembalian.Data1 = hasil;
             return kembalian;

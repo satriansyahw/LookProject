@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LookDAL", "LookDAL\LookDAL.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenHelper", "GenHelper\GenHelper.csproj", "{E504EC5A-3C09-4227-8F76-7067FD589160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesterClass", "TesterClass\TesterClass.csproj", "{4E78EE65-A937-4DC4-9AFC-BA79C56A1F8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesterClass", "TesterClass\TesterClass.csproj", "{4E78EE65-A937-4DC4-9AFC-BA79C56A1F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LookAPI", "LookAPI\LookAPI.csproj", "{7841DE1F-E00A-4D86-8984-3FCB602B7A54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4E78EE65-A937-4DC4-9AFC-BA79C56A1F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E78EE65-A937-4DC4-9AFC-BA79C56A1F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E78EE65-A937-4DC4-9AFC-BA79C56A1F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7841DE1F-E00A-4D86-8984-3FCB602B7A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7841DE1F-E00A-4D86-8984-3FCB602B7A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7841DE1F-E00A-4D86-8984-3FCB602B7A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7841DE1F-E00A-4D86-8984-3FCB602B7A54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

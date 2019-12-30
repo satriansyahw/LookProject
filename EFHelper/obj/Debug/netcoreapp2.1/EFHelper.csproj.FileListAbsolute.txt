@@ -22,9 +22,12 @@ D:\PROJECTS\EFDBCore\EFHelper\obj\Debug\netcoreapp2.1\EFHelper.csprojAssemblyRef
 D:\PROJECTS\LookProject\EFHelper\bin\Debug\netcoreapp2.1\EFHelper.deps.json
 D:\PROJECTS\LookProject\EFHelper\bin\Debug\netcoreapp2.1\EFHelper.dll
 D:\PROJECTS\LookProject\EFHelper\bin\Debug\netcoreapp2.1\EFHelper.pdb
+D:\PROJECTS\LookProject\EFHelper\bin\Debug\netcoreapp2.1\GenHelper.dll
+D:\PROJECTS\LookProject\EFHelper\bin\Debug\netcoreapp2.1\GenHelper.pdb
 D:\PROJECTS\LookProject\EFHelper\obj\Debug\netcoreapp2.1\EFHelper.csprojAssemblyReference.cache
 D:\PROJECTS\LookProject\EFHelper\obj\Debug\netcoreapp2.1\EFHelper.csproj.CoreCompileInputs.cache
 D:\PROJECTS\LookProject\EFHelper\obj\Debug\netcoreapp2.1\EFHelper.AssemblyInfoInputs.cache
 D:\PROJECTS\LookProject\EFHelper\obj\Debug\netcoreapp2.1\EFHelper.AssemblyInfo.cs
+D:\PROJECTS\LookProject\EFHelper\obj\Debug\netcoreapp2.1\EFHelper.csproj.CopyComplete
 D:\PROJECTS\LookProject\EFHelper\obj\Debug\netcoreapp2.1\EFHelper.dll
 D:\PROJECTS\LookProject\EFHelper\obj\Debug\netcoreapp2.1\EFHelper.pdb

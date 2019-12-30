@@ -10,9 +10,9 @@ D:\PROJECTS\starter\GenHelper\obj\Debug\netcoreapp2.1\GenHelper.csprojAssemblyRe
 D:\PROJECTS\LookProject\GenHelper\bin\Debug\netcoreapp2.1\GenHelper.deps.json
 D:\PROJECTS\LookProject\GenHelper\bin\Debug\netcoreapp2.1\GenHelper.dll
 D:\PROJECTS\LookProject\GenHelper\bin\Debug\netcoreapp2.1\GenHelper.pdb
-D:\PROJECTS\LookProject\GenHelper\obj\Debug\netcoreapp2.1\GenHelper.csprojAssemblyReference.cache
 D:\PROJECTS\LookProject\GenHelper\obj\Debug\netcoreapp2.1\GenHelper.csproj.CoreCompileInputs.cache
 D:\PROJECTS\LookProject\GenHelper\obj\Debug\netcoreapp2.1\GenHelper.AssemblyInfoInputs.cache
 D:\PROJECTS\LookProject\GenHelper\obj\Debug\netcoreapp2.1\GenHelper.AssemblyInfo.cs
 D:\PROJECTS\LookProject\GenHelper\obj\Debug\netcoreapp2.1\GenHelper.dll
 D:\PROJECTS\LookProject\GenHelper\obj\Debug\netcoreapp2.1\GenHelper.pdb
+D:\PROJECTS\LookProject\GenHelper\obj\Debug\netcoreapp2.1\GenHelper.csprojAssemblyReference.cache

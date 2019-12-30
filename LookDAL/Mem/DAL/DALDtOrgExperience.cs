@@ -1,4 +1,5 @@
 ﻿using EFHelper;
+using GenHelper;
 using LookDAL.General.DAL;
 using System;
 using System.Collections.Generic;

@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using System.Linq;
+using GenHelper;
+
 namespace LookDAL.General.DAL
 {
     public class DALListDataAsync : IListDataAsync

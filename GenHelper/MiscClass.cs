@@ -29,7 +29,6 @@ namespace GenHelper
     }
     public class DeleteByIDList
     {
-        public int UserId { get; set; }
         public string UserByName { get; set; }
         public List<int> IdentityId { get; set; }
     }

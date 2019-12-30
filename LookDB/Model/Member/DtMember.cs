@@ -29,7 +29,7 @@ namespace LookDB.Model.Member
         public string Email { get; set; }
         [Column(Order = 8), Required, MaxLength(10)]
         public string DateBirth { get; set; }
-        [Column(Order = 9), MaxLength(30)]
+        [Column(Order = 9), Required, MaxLength(30)]
         public string PlaceBirth { get; set; }
         [Column(Order = 10), Required, MaxLength(1)]
         public string Sex { get; set; }
@@ -55,7 +55,31 @@ namespace LookDB.Model.Member
         [Column(Order = 20), Required]
         public bool ActiveBool { get; set; }
     }
-  
+
+    public class VW_DtMember
+    {
+        public int Id { get; set; }
+        public string MemberNoReg { get; set; }
+        public string FrontName { get; set; }
+        public string BackName { get; set; }
+        public string FullName { get; set; }
+        public string IDCardNo { get; set; }
+        public string HP { get; set; }
+        public string Email { get; set; }
+        public string DateBirth { get; set; }
+        public string PlaceBirth { get; set; }
+        public string Sex { get; set; }
+        public bool Marital { get; set; }
+        public string Address { get; set; }
+        public string AddressCity { get; set; }
+        public string AddressProv { get; set; }
+        public string Photo { get; set; }
+    }
+    public class VW_Short_DtMember
+    {
+        public int Id { get; set; }
+        public string MemberNoReg { get; set; }
+        public string FrontName { get; set; }
         public string BackName { get; set; }
         public string FullName { get; set; }
         public string HP { get; set; }
