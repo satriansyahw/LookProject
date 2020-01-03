@@ -19,6 +19,7 @@ namespace LookWeb.Controllers
         {
             kembalian = new APIReturn();
             repo = new DALRepoBasic();
+            helper = new Helper();
             var hasil = await repo.HapusActiveBoolAsync<T>(identityID, picDelete);
             kembalian.Message = MessageInfo.APISuccess;
             kembalian.Data1 = hasil;
@@ -29,6 +30,7 @@ namespace LookWeb.Controllers
         {
             kembalian = new APIReturn();
             repo = new DALRepoBasic();
+            helper = new Helper();
             var hasil = await repo.HapusActiveBoolAsync<T>(listIdentityID, picDelete);
             kembalian.Message = MessageInfo.APISuccess;
             kembalian.Data1 = hasil;
@@ -52,6 +54,7 @@ namespace LookWeb.Controllers
         {
             kembalian = new APIReturn();
             repo = new DALRepoBasic();
+            helper = new Helper();
             var hasil = await repo.SearchByIdAsync<T>(Id);
             kembalian.Message = MessageInfo.APISuccess;
             kembalian.Data1 = hasil;
@@ -62,6 +65,7 @@ namespace LookWeb.Controllers
         {
             kembalian = new APIReturn();
             repo = new DALRepoBasic();
+            helper = new Helper();
             var hasil = await repo.SearchByIdAsync<T>(listId);
             kembalian.Message = MessageInfo.APISuccess;
             kembalian.Data1 = hasil;
@@ -72,7 +76,7 @@ namespace LookWeb.Controllers
         {
             kembalian = new APIReturn();
             repo = new DALRepoBasic();
-
+            helper = new Helper();
             var hasil = await repo.SimpanAsync<T>(listEntity);
             kembalian.Data1 = hasil;
             if (hasil != null)
@@ -90,6 +94,7 @@ namespace LookWeb.Controllers
         {
             kembalian = new APIReturn();
             repo = new DALRepoBasic();
+            helper = new Helper();
             var hasil = await repo.SimpanAsync<T>(entity);
             kembalian.Data1 = hasil;
             if (hasil != null)
@@ -107,6 +112,7 @@ namespace LookWeb.Controllers
         {
             kembalian = new APIReturn();
             repo = new DALRepoBasic();
+            helper = new Helper();
             var hasil = await repo.UbahAsync<T>(entity);
             kembalian.Data1 = hasil;
             if (hasil)
@@ -124,8 +130,7 @@ namespace LookWeb.Controllers
         {
             kembalian = new APIReturn();
             repo = new DALRepoBasic();
-            kembalian = new APIReturn();
-            repo = new DALRepoBasic();
+            helper = new Helper();
             var hasil = await repo.UbahAsync<T>(listEntity);
             kembalian.Data1 = hasil;
             if (hasil)

@@ -32,26 +32,26 @@ namespace LookDAL.Mem.DAL
             return await base.ListDataAsync<TSource, TResult>(SearchFieldList, sortColumn, isascending, toptake);
         }
 
-        public virtual async Task<List<BufferClass>> SearchAllMemberInfoByMemberId(int id)
+        public virtual async Task<List<BufferClass>> SearchMemberAllInfoByMemberId(int id)
         {
             List<BufferClass> lbc = new List<BufferClass>();
             if (id > 0)
             {
                 List<SearchField> lsf = new List<SearchField>();
                 lsf.Add(new SearchField { Name="ID",Operator="=",Value1=id.ToString()});
-                var hasilDtMember = base.ListDataAsync<DtMember, VW_DtMember>(lsf, "", false, 100);
+                var hasilDtMember = await base.ListDataAsync<DtMember, VW_DtMember>(lsf, "", false, 100);
                 lsf = new List<SearchField>();
                 lsf.Add(new SearchField { Name = "MemberID", Operator = "=", Value1 = id.ToString() });
-                var hasilDtCertification = base.ListDataAsync<DtCertification, VW_DtCertification>(lsf, "", false, 100);
-                var hasilDtEducation = base.ListDataAsync<DtEducation, VW_DtEducation>(lsf, "", false, 100);
-                var hasilDtExpertise = base.ListDataAsync<DtExpertise, VW_DtExpertise>(lsf, "", false, 100);
-                var hasilDtLanguage = base.ListDataAsync<DtLanguage, VW_DtLanguage>(lsf, "", false, 100);
-                var hasilDtOrgExperience = base.ListDataAsync<DtOrgExperience, VW_DtOrgExperience>(lsf, "", false, 100);
-                var hasilDtWorkingExperience = base.ListDataAsync<DtWorkingExperience, VW_DtWorkingExperience>(lsf, "", false, 100);
-                var hasilDtWorkingInterest = base.ListDataAsync<DtWorkingInterest, VW_DtWorkingInterest>(lsf, "", false, 100);
-
-                await Task.WhenAll(hasilDtMember, hasilDtCertification,hasilDtEducation,hasilDtExpertise,hasilDtLanguage
-                    ,hasilDtOrgExperience,hasilDtWorkingExperience,hasilDtWorkingInterest);
+                var hasilDtCertification = await base.ListDataAsync<DtCertification, VW_DtCertification>(lsf, "", false, 100);
+                var hasilDtEducation = await base.ListDataAsync<DtEducation, VW_DtEducation>(lsf, "", false, 100);
+                var hasilDtExpertise = await base.ListDataAsync<DtExpertise, VW_DtExpertise>(lsf, "", false, 100);
+                var hasilDtLanguage = await base.ListDataAsync<DtLanguage, VW_DtLanguage>(lsf, "", false, 100);
+                var hasilDtOrgExperience = await base.ListDataAsync<DtOrgExperience, VW_DtOrgExperience>(lsf, "", false, 100);
+                var hasilDtWorkingExperience = await base.ListDataAsync<DtWorkingExperience, VW_DtWorkingExperience>(lsf, "", false, 100);
+                var hasilDtWorkingInterest = await base.ListDataAsync<DtWorkingInterest, VW_DtWorkingInterest>(lsf, "", false, 100);
+              
+                //await Task.WhenAll(hasilDtMember, hasilDtCertification,hasilDtEducation,hasilDtExpertise,hasilDtLanguage
+                //    ,hasilDtOrgExperience,hasilDtWorkingExperience,hasilDtWorkingInterest);
               
                 lbc.Add(new BufferClass { ObjectName = "Member", ObjectValue = hasilDtMember });
                 lbc.Add(new BufferClass { ObjectName = "Certification", ObjectValue = hasilDtMember });

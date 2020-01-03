@@ -7,6 +7,6 @@ namespace LookDAL.Mem.IFace
 {
     interface IDtMember
     {
-        Task<List<BufferClass>> SearchAllMemberInfoByMemberId(int id);
+        Task<List<BufferClass>> SearchMemberAllInfoByMemberId(int id);
     }
 }

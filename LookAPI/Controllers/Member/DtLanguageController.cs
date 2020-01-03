@@ -15,7 +15,7 @@ namespace LookAPI.Controllers.Member
     [Produces("application/json")]
     [Route("api/[controller]")]
     [EnableCors("GenProjCORS")]
-    public class DtCertificationController : Controller
+    public class DtLanguageController : Controller
     {
         GeneralController general = new GeneralController();
 
@@ -33,19 +33,19 @@ namespace LookAPI.Controllers.Member
         [HttpPost("{deleteByIdList}")]
         public async Task<IActionResult> DeleteListAsync([FromBody] DeleteByIDList deleteByIdList)
         {
-            var hasil = await general.HapusActiveBoolAsync<DtCertification>(deleteByIdList.IdentityId, deleteByIdList.UserByName);
+            var hasil = await general.HapusActiveBoolAsync<DtLanguage>(deleteByIdList.IdentityId, deleteByIdList.UserByName);
             return Ok(hasil);
         }
         [Route("SimpanListAsync")]
         [HttpPost("{listEntity}")]
-        public async Task<IActionResult> SimpanListAsync([FromBody]List<DtCertification> listEntity)
+        public async Task<IActionResult> SimpanListAsync([FromBody]List<DtLanguage> listEntity)
         {
             var hasil = await general.SimpanAsync(listEntity);
             return Ok(hasil);
         }
         [Route("UpdateListAsync")]
         [HttpPost("{listEntity}")]
-        public async Task<IActionResult> UpdateListAsync([FromBody]List<DtCertification> listEntity)
+        public async Task<IActionResult> UpdateListAsync([FromBody]List<DtLanguage> listEntity)
         {
             var hasil = await general.UbahAsync(listEntity);
             return Ok(hasil);
@@ -54,14 +54,14 @@ namespace LookAPI.Controllers.Member
         [HttpPost("{searchParam}")]
         public async Task<IActionResult> ListDataAsync([FromBody]SearchParameter searchParam)
         {
-            var hasil = await general.ListDataAsync<DtCertification, VW_DtCertification>(searchParam.SearchFieldList, searchParam.SortColumn, searchParam.IsAscending, searchParam.TopTake);
+            var hasil = await general.ListDataAsync<DtLanguage, VW_DtLanguage>(searchParam.SearchFieldList, searchParam.SortColumn, searchParam.IsAscending, searchParam.TopTake);
             return Ok(hasil);
         }
         [Route("GetSearchByIdAsync")]
         [HttpGet]
         public async Task<IActionResult> GetSearchByIdAsync(int id)
         {
-            var hasil = await general.SearchByIdAsync<DtCertification>(id);
+            var hasil = await general.SearchByIdAsync<DtLanguage>(id);
             return Ok(hasil);
         }
     }
