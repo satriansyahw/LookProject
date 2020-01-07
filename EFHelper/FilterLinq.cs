@@ -490,7 +490,7 @@ namespace EFHelper.Helper
                             foreach (var item in value.Split('|'))
                             {
                                 string myValue = string.Empty;
-                                if (value.Trim() == "1")
+                                if (item.Trim() == "1")
                                 {
                                     myValue = "true";
                                 }
